@@ -1,3 +1,5 @@
+<div style="max-width: 960px; margin: auto; padding: 20px;">
+
 # 👨‍💻 About Me
 
 I’m **Urvik Patel**, a Melbourne-based Data Analyst and AI Engineer with a strong foundation in Python, Power BI, Machine Learning, and Cloud Platforms (Azure, GCP, AWS). I’ve worked across multiple sectors including government, healthcare, and tech consulting — helping teams make evidence-based decisions through data storytelling, predictive modeling, and automation.
@@ -89,3 +91,5 @@ Bachelor of Engineering, GPA 3.86/4, 2018–2022
 ## 🧾 Download Resume
 
 [Download PDF](Urvik__Resume___2025.pdf)
+
+</div>
