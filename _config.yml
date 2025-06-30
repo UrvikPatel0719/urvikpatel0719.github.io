@@ -1,5 +1,9 @@
 title: Urvik Patel 
 logo: head.jpg
-description: 👋 Hi, I'm Urvik — a data analyst and AI enthusiast based in Melbourne. With hands-on experience across public health and sustainability sectors, I specialize in transforming complex data into clear, actionable insights. Proficient in Python, Power BI, and cloud platforms, I’m passionate about building ethical, impactful tech solutions. Currently pursuing my Master's in IT (AI) at the University of Melbourne.
+description: >
+  👋 Hi, I'm Urvik — a Data Analyst and AI Engineer passionate about solving real-world problems with data. 
+  With hands-on experience in government, healthcare, and environmental analytics, I specialize in creating impactful dashboards, automating pipelines, and deploying AI/ML solutions. 
+  Currently pursuing my Master of Information Technology (AI) at the University of Melbourne.
+  
 show_downloads: true
 theme: jekyll-theme-minimal
