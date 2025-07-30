@@ -1,10 +1,3 @@
-# 👨‍💻 About Me
-
-I’m **Urvik Patel**, a Melbourne-based Data Analyst and AI Engineer with a strong foundation in Python, Power BI, Machine Learning, and Cloud Platforms (Azure, GCP, AWS). I’ve worked across multiple sectors including government, healthcare, and tech consulting — helping teams make evidence-based decisions through data storytelling, predictive modeling, and automation.
-
-Currently, I’m completing my **Master of IT (AI)** at the University of Melbourne. I’m also certified in **Power BI Data Analysis** and **Azure AI Fundamentals**, with hands-on experience in NLP, LSTM/GRU models, and end-to-end ML pipelines.
-
----
 
 ## 🎓 Education
 
