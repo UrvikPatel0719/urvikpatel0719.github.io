@@ -1,8 +1,8 @@
 
 ## 🎓 Education
 
-University of Melbourne Master of Information Technology (AI Specialization), 2023–2025
-GEC Gandhinagar Bachelor of Engineering, GPA 3.86/4, 2018–2022
+* University of Melbourne Master of Information Technology (AI Specialization), 2023–2025
+* GEC Gandhinagar Bachelor of Engineering, GPA 3.86/4, 2018–2022
 
 ---
 ## ⚙️ Technical Skills
