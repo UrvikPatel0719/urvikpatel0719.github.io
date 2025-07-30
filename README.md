@@ -1,5 +1,3 @@
-<div style="max-width: 960px; margin: auto; padding: 20px;">
-
 # 👨‍💻 About Me
 
 I’m **Urvik Patel**, a Melbourne-based Data Analyst and AI Engineer with a strong foundation in Python, Power BI, Machine Learning, and Cloud Platforms (Azure, GCP, AWS). I’ve worked across multiple sectors including government, healthcare, and tech consulting — helping teams make evidence-based decisions through data storytelling, predictive modeling, and automation.
@@ -8,88 +6,97 @@ Currently, I’m completing my **Master of IT (AI)** at the University of Melbou
 
 ---
 
-## ⚙️ Technical Skills
-
-- **Languages**: Python, R, SQL, JavaScript, HTML/CSS
-- **ML/AI**: Scikit-learn, TensorFlow, Keras, PyTorch, NLP, LSTM, RNN, SMOTE
-- **Data Tools**: Power BI, Tableau, Pandas, NumPy, Seaborn, Excel
-- **Databases**: PostgreSQL, MySQL, BigQuery, Microsoft Dynamics
-- **Cloud Platforms**: GCP, Azure, AWS
-- **Dev & Automation**: Git, JIRA, Streamlit, LaTeX, Slack
-- **Governance**: Compliance Reporting, Data Privacy, Audit Readiness
-
----
-
-## 🧠 Projects
-
-### 🔬 Early Sepsis Detection (MIMIC-IV)
-Built deep learning models (LSTM/GRU) for predicting early sepsis in ICU patients, achieving **81.8% accuracy** and 0.90 AUC.
-
-### 🌱 AI-Powered Climate Fact-Checking System
-Developed a fact-checking tool for climate science using **BM25 + BiLSTM + Attention**, improving retrieval and evidence-based classification.
-
-### 🛠️ E-commerce Auto Parts Website
-Built an e-commerce site with WordPress, focusing on **risk analysis, Scrum project management, and user authentication**.
-
-### 💬 Sentiment Analysis for Healthcare Reviews
-Used NLP and Logistic Regression to analyze patient sentiment, achieving **90% accuracy** with L1 regularization.
-
----
-
-## 💼 Work Experience
-
-**Data Analyst – Department of Energy, Environment and Climate Action (Jul–Nov 2024)**  
-- Created Power BI dashboards for emissions KPIs and automated reporting pipelines using Python.
-
-**Data Operations Engineer – Western Health (Jul 2023–Jan 2024)**  
-- Developed real-time treatment tracking dashboards; implemented cloud-based workflows with GCP, AWS, and Hadoop.
-
-**Web Dev Intern – Monarch Adroit Infotech (Apr–Oct 2022)**  
-- Boosted UX with chatbot automation; improved customer engagement by 30%.
-
-**Data Analyst Intern – Skywave Info Solutions (Jan–Apr 2022)**  
-- Built Power BI dashboards from Twitter + COVID APIs; applied ML for trend discovery.
-
----
-
 ## 🎓 Education
 
-**University of Melbourne**  
-Master of Information Technology (AI Specialization), 2023–2025
+University of Melbourne Master of Information Technology (AI Specialization), 2023–2025
+GEC Gandhinagar Bachelor of Engineering, GPA 3.86/4, 2018–2022
 
-**GEC Gandhinagar**  
-Bachelor of Engineering, GPA 3.86/4, 2018–2022
+---
+## ⚙️ Technical Skills
+
+* **Languages**: Python, R, SQL, JavaScript, HTML/CSS
+* **ML/AI**: Scikit-learn, TensorFlow, Keras, PyTorch, NLP, LSTM, RNN, SMOTE
+* **Data Tools**: Power BI, Tableau, Pandas, NumPy, Seaborn, Excel
+* **Databases**: PostgreSQL, MySQL, BigQuery, Microsoft Dynamics
+* **Cloud Platforms**: GCP, Azure, AWS
+* **Dev & Automation**: Git, JIRA, Streamlit, LaTeX, Slack
+* **Governance**: Compliance Reporting, Data Privacy, Audit Readiness
 
 ---
 
-## 📜 Certifications
+## 🧐 Projects
 
-- Microsoft Certified: Power BI Data Analyst Associate (PL-300)
-- Microsoft Certified: Azure AI Fundamentals (AI-900)
-- Google: Data Analysis with R
-- Udemy: Python Bootcamp – 15 Applications & Games
+### 🚀 Machine Learning & AI
+
+#### ✨ AI Text Classification – Human vs Machine-Generated Text Detection
+
+Developed a binary text classification system that distinguishes between human-written and AI-generated content using a hybrid model. Combined traditional machine learning (TF-IDF + Logistic Regression) with deep learning (BiLSTM and Domain-Adversarial Neural Networks). Implemented a majority voting ensemble to enhance generalizability and robustness to class imbalance. The model achieved **92.45% accuracy** and secured a **Top 10 rank on the Kaggle Leaderboard**.
+**Skills:** PyTorch, NLP, Ensemble Learning, DANN, TF-IDF, SMOTE
+
+#### ✨ Early Sepsis Detection in ICU Patients
+
+Built deep learning models to detect early signs of sepsis in ICU patients using MIMIC-IV data. Applied Sepsis-1 criteria and digital phenotyping to label time-series data. Implemented and compared LSTM, GRU, and RNN models, achieving **AUC of 0.90** and **81.8% accuracy**. Preprocessing included hourly data resampling, normalization, and missing value handling.
+**Skills:** LSTM, GRU, RNN, BigQuery, ETL, Clinical Data Analysis
+
+#### ✨ AI Agents for Competitive Azul Gameplay
+
+Created three intelligent agents for Azul using Q-learning, Minimax with Alpha-Beta Pruning, and Monte Carlo Tree Search. Conducted performance evaluation under adversarial gameplay and time constraints. The Minimax agent achieved an **18/20 win rate**, with an average score of **60.75**, outperforming other models in accuracy and efficiency.
+**Skills:** Reinforcement Learning, Search Algorithms, Simulation, Game AI
+
+#### ✨ Heuristic Search & Multi-Agent Pathfinding (MAPF)
+
+Developed a custom heuristic-based food search agent for maze navigation that reduced node expansions from 4,137 to **134 nodes**. Designed and implemented Conflict-Based Search (CBS) to manage multiple agents in a shared environment, handling vertex and edge conflicts using STOP actions and replanning logic.
+**Skills:** A\*, CBS, Heuristic Design, Pathfinding Optimization
+
+#### ✨ Patient Sentiment Analysis from Textual Reviews
+
+Explored the effect of feature engineering on classifier performance by analyzing patient feedback. Applied Count Vectorizer and TF-IDF with Logistic Regression and Naive Bayes models. Evaluated accuracy, precision, recall, and F1-score. Found that Logistic Regression with L1 regularization and Count Vectorizer gave the highest performance (\~90%).
+**Skills:** Text Preprocessing, Feature Engineering, NLP, Model Evaluation
+
+#### ✨ Automated Fact-Checking System for Climate Science
+
+Designed a two-stage NLP system to fact-check climate science claims. Used BM25 for evidence retrieval and BiLSTM + Attention for claim classification. Achieved **53% development accuracy** and **49.35% test accuracy**. Focused on classifying claims as supported, refuted, or unverifiable.
+**Skills:** NLP, BM25, BiLSTM, GRU, Attention Mechanism, Climate Science
 
 ---
 
-## 🤝 Volunteering & Leadership
+### 💻 Development Projects
 
-- **Robin Hood Army** – Led food and education drives in underserved communities
-- **Endeavour Exhibition Volunteer** – Supported over 100 student projects
-- **Tech Fest Coordinator – GEC-Gandhinagar** – Managed 15+ events and logistics
+#### 📱 Art Therapy Mobile App (AT-Redback)
 
----
+Led the design and development of a mobile application aimed at enhancing access to mental health support through art therapy. Acted as Project Manager for a team of five, applying Agile Scrum methodology with biweekly sprints, mid-sprint check-ins, and sprint reviews. Built with React Native and Firebase, the app delivered **15+ interactive features**, including onboarding, telemetry-based therapy suggestions, art-based exercises, and social sharing. Final deliverables included a walkthrough demo and investor pitch documentation.
+**Skills:** React Native, Firebase, Agile Scrum, JIRA, Mobile Development
 
-## 📬 Contact
+#### 🌐 E-Commerce Website for Auto Parts
 
-- 📧 urvik01patel@gmail.com  
-- 🔗 [GitHub](https://github.com/UrvikPatel0719)  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/urvikharshadkumarpatel/)  
-- 🐦 [Twitter / X](https://x.com/UrvikPatel19)
+Developed a fully functional WordPress-based e-commerce website under strict budget constraints. Designed and executed the project with a focus on usability, security, and scalability. Created a detailed Project Management Plan (PMP), conducted risk assessments, and implemented sprint-based Agile development. Delivered user authentication, product listings, and cart features using WooCommerce.
+**Skills:** WordPress, WooCommerce, JIRA, Project Management, Risk Analysis
 
 ---
 
-## 🧾 Download Resume
+### 📊 Data Analytics & Databases
 
-[Download PDF](Urvik__Resume___2025.pdf)
+#### 🌍 Blinkit Sales Dashboard
 
-</div>
+Created a visually rich Power BI dashboard to track key performance metrics like total and average sales, customer ratings, and item counts. Built an interactive filter panel to enable dynamic data exploration across outlets. Used Power Query for data ingestion and transformation, and DAX for calculated measures and KPIs. Ensured stakeholder-ready outputs with drill-down visualizations.
+**Skills:** Power BI, DAX, Power Query, PostgreSQL, KPI Reporting
+
+#### 📈 Dog Training and Event Management (SQL Analytics)
+
+Designed complex SQL queries for a dog training and event system to generate insights about event popularity, trainer workloads, and venue usage. Created dynamic views, including one for booking analysis by dog breed. Delivered a suite of **10 analytical reports** for business intelligence.
+**Skills:** SQL, Views, Subqueries, JOINs, Analytical Reporting
+
+#### 🏥 Hospital Procedure Management (ER Model)
+
+Created an ER diagram for managing hospital operations, including 25+ entities like patients, medications, staff, and equipment. Implemented surrogate keys and refined relationships with cardinality constraints. Mapped business rules to relational structures to facilitate database normalization.
+**Skills:** ER Diagrams, MySQL, Logical Modeling, Database Design
+
+#### 📃 Column-Oriented Databases Survey
+
+Conducted an in-depth literature survey of columnar databases like Vertica and MonetDB. Evaluated their use in read-heavy analytical systems, explored trade-offs with row-oriented DBs, and proposed design improvements for time-series data grouping and denormalization.
+**Skills:** Database Architecture, Columnar Storage, Report Writing
+
+#### 🚀 Energy-Efficient Routing in WSNs
+
+Analyzed energy optimization strategies in Wireless Sensor Networks by reviewing routing protocols such as LEACH, TEEN, MECH, and Gradient-Based Routing. Explored protocol performance in extending network lifetime and reducing energy consumption. Identified ideal use-cases and limitations for each approach.
+**Skills:** Network Protocols, WSN, Survey Analysis, Energy Efficiency
